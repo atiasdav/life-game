@@ -202,10 +202,10 @@ class LifeApp:
         self.scale.grid_forget()
         self.stop_button.grid_forget()
         self.start_button.grid(row=1, column=1)
-        self.curr.Initail_Example()  # self.davstate
+        self.curr.Initail_Example()
         self.next = nextstep(self.curr)
         self.curr.imagefy()
-        self.img_of_curr_state = PhotoImage(file="currstate.png")
+        self.img_of_curr_state = PhotoImage(file="Currstate.png")
         self.actPhoto.config(image=self.img_of_curr_state)
 
     def about(self):
@@ -216,7 +216,7 @@ class LifeApp:
         mell.config(padding=(30, 15), relief=FLAT)
         self.label2 = ttk.Label(mell,
                                 text='David Atias’s Game of Life! V2.0\nThis game was developed by David Atias.\nEmail: atiasdav@gmail.com \
-                                     \n\nThe game ruels are:\n1.Any live cell with fewer than two live neighbours dies, as if by underpopulation & Any live cell with more than three live neighbours dies, as if by overpopulation.\n2.Any live cell with two live neighbours lives on to the next generation.\n3.Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.')
+                                     \n\nThe game rules are:\n1.Any live cell with fewer than two live neighbours dies, as if by underpopulation & Any live cell with more than three live neighbours dies, as if by overpopulation.\n2.Any live cell with two live neighbours lives on to the next generation.\n3.Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.')
         self.label2.grid(row=0, column=0, columnspan=1)
         self.label2.config(font=('Ariel', 11))
         # ttk.Label(mell,text="\n\nKnown issues:\n1.cant restart after stop.\n2.reset don't reset properly the after stop",font=('Ariel', 11)).grid(row=1, column=0, columnspan=1,sticky=SW) -> resolved
