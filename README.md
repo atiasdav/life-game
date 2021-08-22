@@ -10,5 +10,8 @@ the rules of the game are:
     2. Any dead cell with three live neighbours becomes a live cell.
     3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
     
-<img src="game of life GUI.png" width ="700"  >
+<img src="game of life GUI.png" width ="700">
     
+after 395 steps:
+
+<img src="game of life GUI end.png" width ="700">
