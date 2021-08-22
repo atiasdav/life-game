@@ -5,7 +5,6 @@ from tkinter import ttk
 import numpy as np
 from PIL import Image
 
-
 class state:
 
     # 2-Dim Array
@@ -13,7 +12,6 @@ class state:
         self.rows = 100
         self.cols = 100
         self.arr = np.zeros((100, 100), dtype=int)
-
 
     # fills array with a cool pattern
     def Initail_Example(self):
