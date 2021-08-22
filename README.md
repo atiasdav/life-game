@@ -15,3 +15,9 @@ the rules of the game are:
 after 395 steps:
 
 <img src="game of life GUI end.png" width ="700">
+
+# Goals of this project
+the goals of this project are:
+ 1. practicing python
+ 2. learning how to make a GUI in python
+ 3. learning how to use git
