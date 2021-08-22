@@ -1,5 +1,7 @@
 # life-game
 
+
+
 this is a GUI aplication of Conway's Game of Life
 
 the rules of the game are:
@@ -8,5 +10,5 @@ the rules of the game are:
     2. Any dead cell with three live neighbours becomes a live cell.
     3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
     
-![](./game%20of%20life%20GUI.png)
+<img src="game of life GUI.png" width ="700"  >
     
