@@ -20,4 +20,4 @@ after 395 steps:
 the goals of this project are:
  1. practicing python
  2. learning how to make a GUI in python
- 3. learning how to use git
+ 3. learning how to use github
