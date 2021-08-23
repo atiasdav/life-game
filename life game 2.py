@@ -1,5 +1,3 @@
-import functools
-from time import time
 from tkinter import *
 from tkinter import ttk
 import numpy as np
@@ -223,7 +221,7 @@ class LifeApp:
 
 def main():
     root = Tk()
-    app = LifeApp(root)
+    LifeApp(root)
     root.mainloop()
 
 if __name__ == "__main__": main()
